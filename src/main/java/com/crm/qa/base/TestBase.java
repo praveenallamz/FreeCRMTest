@@ -48,6 +48,8 @@ public class TestBase {
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "C:/Users/Praveen/Desktop/Docs/exegeckodriver.exe");	
 			driver = new FirefoxDriver();   
+			System.out.println("Praven welcome to you ");
+			
 		}
 		
 		
