@@ -38,7 +38,7 @@ public class TestBase {
 	
 	
 	public static void initialization(){
-		String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");   
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "https://github.com/praveenallamz/FreeCRMTest/chromedriver.exe");
