@@ -44,6 +44,7 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "https://github.com/praveenallamz/FreeCRMTest/chromedriver.exe");
 			driver = new ChromeDriver(); 
 			System.out.println("Praven welcome to you ");
+			System.out.println("Praven welcome to you ");
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "C:/Users/Praveen/Desktop/Docs/exegeckodriver.exe");	
