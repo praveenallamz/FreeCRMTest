@@ -66,6 +66,7 @@ public class TestBase {
 		
 		driver.get(prop.getProperty("url"));
 		System.out.println("Hello");
+		System.out.println("Hello");
 		
 	}
 	
