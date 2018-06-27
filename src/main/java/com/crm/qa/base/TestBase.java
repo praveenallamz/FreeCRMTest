@@ -41,7 +41,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");   
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "/FreeCRMTest/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 			driver = new ChromeDriver(); 
 			System.out.println("Praven welcome to you ");
 			System.out.println("Praven welcome to you ");
